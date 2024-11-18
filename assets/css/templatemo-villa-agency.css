@@ -808,6 +808,11 @@ Banner Style
       height: 300px;
   }
 }
+@media (min-width: 768px) {
+  #first_pic{
+    background-image: url(../images/try.png) !important;
+  }
+}
 
 .main-banner .item-1 {
   background-image: url(../images/latest_pic.png) !important;
