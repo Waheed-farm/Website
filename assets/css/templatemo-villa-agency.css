@@ -750,7 +750,7 @@ Banner Style
 /* Padding for smaller screens (up to 768px width) */
 @media (max-width: 768px) {
   #carouselMultiItemExample {
-    padding-top: 100px;
+    padding-top: 120px;
   }
   #heading{
     font-size: 1rem;
