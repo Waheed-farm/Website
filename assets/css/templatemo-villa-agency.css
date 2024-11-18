@@ -765,12 +765,13 @@ Banner Style
  }
 #firstt {
   font-size: 24px;
-  position: relative;
-  bottom: 80px;
+        position: relative;
+        bottom: 215px;
 }
 #first_tolkatta{
   position: relative;
-  bottom: 80px;
+  bottom: 183px;
+  left: 100px;
 }
 
 }
@@ -809,7 +810,7 @@ Banner Style
 }
 
 .main-banner .item-1 {
-  background-image: url(../images/try.png) !important;
+  background-image: url(../images/latest_pic.png) !important;
 }
 
 .main-banner .item-2 {
