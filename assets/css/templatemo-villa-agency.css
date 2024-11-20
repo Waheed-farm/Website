@@ -1895,3 +1895,26 @@ body {
     margin-right: 100px;
   }
 }
+.whatsapp-icon {
+  position: fixed;
+  height: 65px;
+  width: 65px;
+  right: 20px;
+  bottom: 30px;
+  background-image: url(../images/WhatsApp.svg);
+  background-size: cover;
+  border-radius: 50%;
+  z-index: 99;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+  animation: glow 1.5s infinite alternate;
+}
+
+/* Glowing effect animation */
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+  }
+  to {
+    box-shadow: 0 0 20px rgba(0, 255, 0, 1);
+  }
+}
